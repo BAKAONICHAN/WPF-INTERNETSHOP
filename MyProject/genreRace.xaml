@@ -1,0 +1,28 @@
+﻿<Window x:Class="MyProject.genreRace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="806.863" Width="1266.177">
+
+    <DockPanel LastChildFill="False">
+        <DockPanel DockPanel.Dock="Bottom" Height="50" LastChildFill="False" Background="Aqua">
+        </DockPanel>
+        <StackPanel DockPanel.Dock="Left" Width="150" Orientation="Vertical" Background="Azure"/>
+        <Grid DockPanel.Dock="Right" Width="140" Height="400" Background="Firebrick">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+        <Grid Background="Bisque">
+            
+          
+        </Grid>
+    </DockPanel>
+
+
+</Window>
