@@ -7,34 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="806.863" Width="1266.177">
 
-    <DockPanel LastChildFill="False">
-        <DockPanel DockPanel.Dock="Bottom" Height="50" LastChildFill="False" Background="Aqua">
-        </DockPanel>
-        <StackPanel DockPanel.Dock="Left" Width="150" Orientation="Vertical" Background="Azure"/>
-        <Grid DockPanel.Dock="Right" Width="140" Height="400" Background="Firebrick">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="20*"/>
-                <RowDefinition Height="20*"/>
-                <RowDefinition Height="20*"/>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Grid Background="Bisque">
-            <Button Content="Sign up"  HorizontalAlignment="Left" Margin="969,10,-139,0" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.572,0.464" Height="59"/>
-            <Button Content="Sigh in" HorizontalAlignment="Left" Margin="969,86,-139,0" VerticalAlignment="Top" Width="138" Height="57"/>
-            <Button x:Name="Гонки" Content="Гонки"  HorizontalAlignment="Left" Margin="-144,48,0,0" VerticalAlignment="Top" Width="132" Click="Гонки_Click"/>
-            <Button Content="Инди" HorizontalAlignment="Left" Margin="-144,99,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Казуальные" HorizontalAlignment="Left" Margin="-144,148,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Приключения" HorizontalAlignment="Left" Margin="-144,243,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Экшен" HorizontalAlignment="Left" Margin="-144,195,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Стратегия" HorizontalAlignment="Left" Margin="-144,292,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Симулятор" HorizontalAlignment="Left" Margin="-144,392,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Спортивная" HorizontalAlignment="Left" Margin="-144,440,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="ММО" HorizontalAlignment="Left" Margin="-144,488,0,0" VerticalAlignment="Top" Width="132"/>
-            <Button Content="Ролевая" HorizontalAlignment="Left" Margin="-144,341,0,0" VerticalAlignment="Top" Width="132"/>
-            <Image HorizontalAlignment="Left" Height="310" Margin="138,32,0,0" VerticalAlignment="Top" Width="238"  Source="https://i.pinimg.com/736x/67/f8/37/67f83752898a437760a74970d5cb9a84--easter-party-dead-note-anime.jpg"/>
-            <Image HorizontalAlignment="Left" Height="245" Margin="61,402,0,0" VerticalAlignment="Top" Width="802"/>
-        </Grid>
-    </DockPanel>
-
+    
 
 </Window>

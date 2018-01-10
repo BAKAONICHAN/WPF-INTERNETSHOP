@@ -20,15 +20,14 @@ namespace MyProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+            Content = new MainPage(this);
         }
+        
 
-        private void Гонки_Click(object sender, RoutedEventArgs e)
-        {
-            genreRace genreRace = new genreRace();
-            genreRace.Show();
-        }
+        
     }
 }

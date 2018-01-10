@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace MyProject
 {
     /// <summary>
-    /// Логика взаимодействия для GenreRace.xaml
+    /// Логика взаимодействия для Sportive.xaml
     /// </summary>
-    public partial class GenreRace : Page
+    public partial class Sportive : Page
     {
-
-        public GenreRace()
+        public Sportive()
         {
             InitializeComponent();
-           
         }
-        
-       
-
-
     }
 }

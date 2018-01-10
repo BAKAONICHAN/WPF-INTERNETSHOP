@@ -1,0 +1,19 @@
+﻿<Page x:Class="MyProject.Race"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyProject"
+      mc:Ignorable="d"
+      Title="Race" Width="500" Height="500">
+    <DockPanel LastChildFill="False">
+        <DockPanel DockPanel.Dock="Bottom" Height="203" LastChildFill="False" Background="Aqua">
+        </DockPanel>
+        <StackPanel DockPanel.Dock="Left" Width="1000" Orientation="Vertical" Background="Azure"/>
+      
+        <Grid Background="Bisque">
+
+        </Grid>
+    </DockPanel>
+
+</Page>
